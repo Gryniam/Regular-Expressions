@@ -1,0 +1,46 @@
+1. Write a script that opens the in.html file, finds a link of type <a
+href = "..."> and writes the found addresses to the out.html file as a table.
+
+in.html:
+<!DOCTYPE html>
+<html lang="ek">
+<head>
+<meta charset="UTF-8">
+<title>Посилання</title>
+</head>
+<body>
+<a href = "http://pnu.edu.ua">Прикарпатський національний університет імені Василя
+Стефаника</a>
+</body>
+</html>
+
+out.html:
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Назви</title>
+</head>
+<body>
+<table border="1">
+<tr>
+<td>1</td>
+<td>http://pnu.edu.ua</td>
+</tr>
+</table>
+</body>
+</html>
+
+3. Find all occurrences of the date in the text file, consisting of the name of the month and
+numbers, and change the month to January. For example: December 23 was cold -> January 23 was
+coldly.
+
+4. Find C-style multi-line comments in the file that contain the date in DD format.
+MM-YYYY or DD-MM. This is possible when the month is given in words, but not
+
+figures (for example, October 12, 2019). Print the dates.
+5. Find in the text a combination of the words "white" or "black", "dog" or "cat". Count
+the number of occurrences of each of the options separately.
+6. Write a regular expression to validate the first and last name, where each word should
+start with a capital letter, a space between words, words can only contain letters. Not
+Latin and Cyrillic letters can be mixed.
