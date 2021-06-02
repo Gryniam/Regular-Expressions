@@ -1,0 +1,14 @@
+ static private String readLinks(String myFile) throws FileNotFoundException {
+        StringBuilder myText = new StringBuilder();
+        File m = new File(myFile);
+        Scanner reader = new Scanner(m);
+        while (reader.hasNextLine()) {
+            String information = reader.nextLine() + "\n";
+            myText.append(information);
+        }
+        reader.close();
+        return myText.toString();
+    }
+    /*25-06-2008 */
+    /* 12-жовтня-2002*/
+    /* 25-04 */
